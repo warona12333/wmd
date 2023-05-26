@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    position: fixed;
+    background-color: #0A1828;
+    height:65px;
+    width: 100%;
+    background-size: cover;
+}
+.logo{
+    margin: 0;
+    float: left;
+    width: 50px;
+    height: 60px;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 3px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.search input[type=text]{
+    width: 150px;
+    height: 32px;
+    border-radius:10px / 20px;
+    border: #071010;
+    padding: 2px;
+    font-size: medium;
+    font-weight: bold;
+}    
+.search{
+    float:right;
+    margin-top: 2px;
+}     
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 2px 5px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    height: 60vh;
+}
+.movie_info{
+    padding: 100px ;
+    float: left;
+}
+img {
+    margin-top: 80px;
+    float: right;
+    height: 380px;
+    width: 600px;
+}
+
+p{
+    float: left;
+    margin-top:8%;
+    margin-left: 30px;
+    color: #fff;
+    font-weight: 0;
+}
+span{
+    color: azure;
+}
+.btn{
+    height: 15px;
+    width: 40px;
+    justify-self: left;
+    padding: 200px;
+}
